@@ -87,3 +87,31 @@
 		]
 	}
 	```
+    * нажать `Ecs`.
+    * написать `:wq`.
+12. Отправить сразу 2 файла на внешний репозиторий.
+    * команда `git add . ; git commit -m "preferences.json | skills.json" ; git push`.
+13. На веб интерфейсе создать файл bug_report.json.
+    * на github зайти в JSON репозиторий.
+    * нажать кнопку `Add file`.
+    * нажать `Create new file` в поле ввода написать `bug_report.json`.
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+    * нажать `Commit new file`.
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+```json
+{
+ "Heading":"An error in the word Правила ЫРГИ.",
+ "Steps to reproduce":{"1":"Login to the server using Login: Test, Password: Test",
+                       "2":"Click button Соглашение",
+                       "3":"Find button 'Правила ЫРГИ'",}
+ "Expected result":"The text will be correct 'Правила ИГРЫ'",
+ "Actual result":"The text with an error 'Правила ЫРГИ'",
+ "Reproduced on":"Win 10",
+ "Severity":"Minor",
+ "Priority":"Low"
+}
+```
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+   * нажать кнопку `Commit changes`.
+17. Синхронизировать внешний и локальный репозиторий JSON.
+   * команда `git pull`.
