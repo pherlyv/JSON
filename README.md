@@ -7,7 +7,7 @@
 2. Клонировать репозиторий JSON на локальный компьютер.
     * нажать `Code`, выбрать `https`, скопировать ссылку.
     * в `Gitbash` зайти в папку, в которой будет репозитороий (мой пример) `cd git_group_27`.
-    * написать команду `https://github.com/pherlyve/JSON.git`.
+    * написать команду `git clone https://github.com/pherlyve/JSON.git`.
     * зайти в папку JSON `cd JSON`.
 3. Внутри локального JSON создать файл “new.json”.
     * команда `touch new.json`.
