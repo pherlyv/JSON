@@ -6,6 +6,6 @@
  "Expected result":"The text will be correct 'Правила ИГРЫ'",
  "Actual result":"The text with an error 'Правила ЫРГИ'",
  "Reproduced on":"Win 10",
- "Severity":"minor",
- "Priority":"low"
+ "Severity":"Minor",
+ "Priority":"Low"
 }
