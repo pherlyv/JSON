@@ -30,8 +30,8 @@
 	"Salary": "300k/nanosec"
 }
 ```
-    * нажать `Ecs`.
-    * написать `:wq`.
+   * нажать `Ecs`.
+   * написать `:wq`.
 8. Отправить изменения на внешний репозиторий.
     * команда `git add new.json ; git commit -m "updated file new.json" ; git push`.
 9. Создать файл preferences.json.
@@ -48,8 +48,8 @@
      "visit coutry":"Iceland"
 }
 ```
-    * нажать `Ecs`.
-    * написать `:wq`.
+   * нажать `Ecs`.
+   * написать `:wq`.
 
 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON.
     * создать файл `touch skills.json`.
@@ -87,6 +87,8 @@
 	]
 }
 ```
+   * нажать `Ecs`.
+   * написать `:wq`.
 12. Отправить сразу 2 файла на внешний репозиторий.
     * команда `git add . ; git commit -m "preferences.json | skills.json" ; git push`.
 13. На веб интерфейсе создать файл bug_report.json.
