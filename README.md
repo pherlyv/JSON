@@ -20,16 +20,16 @@
 7. Отредактировать содержание файла “new.json” написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
     * команда `vim new.json`.
     * нажать `I`.
-	```json
-	{
-         "Last name":"Redko",
-         "First name":"Tima",
-         "Middle name":"Dmitrievich",
-         "Age":"24",
-         "Pets":"0",
-         "Salary":"300k/nanosec"
-	}
-	```
+```json
+{
+	"Last name": "Redko",
+	"First name": "Tima",
+	"Middle name": "Dmitrievich",
+	"Age": "24",
+	"Pets": "0",
+	"Salary": "300k/nanosec"
+}
+```
     * нажать `Ecs`.
     * написать `:wq`.
 8. Отправить изменения на внешний репозиторий.
@@ -39,24 +39,24 @@
 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON.
     * команда `vim preferences.json`.
     * нажать `I`.
-	```json
-	{
-         "favotire movie":"Blade Runner 2049",
-         "favorite series":"South Park",
-         "favorite food":"Curd casserole",
-         "favorite season":"Autumn",
-         "visit coutry":"Iceland"
-	}
-	```
+```json
+{
+     "favotire movie":"Blade Runner 2049",
+     "favorite series":"South Park",
+     "favorite food":"Curd casserole",
+     "favorite season":"Autumn",
+     "visit coutry":"Iceland"
+}
+```
     * нажать `Ecs`.
     * написать `:wq`.
 
 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON.
     * создать файл `touch skills.json`.
     * зайти для редактирования `vim skills.json` и нажать `I`.
-	```json
-	{
-	"skills":[
+```json
+{
+	"skills": [
 		"1. Basic theory",
 		"2. Client-server architecture",
 		"3. HTTP methods of request to the server",
@@ -84,11 +84,9 @@
 		"25. Load testing in Jmeter",
 		"26. Scrum development methodology",
 		"27. Python. (Learning the basics. Creating a client server application)"
-		]
-	}
-	```
-    * нажать `Ecs`.
-    * написать `:wq`.
+	]
+}
+```
 12. Отправить сразу 2 файла на внешний репозиторий.
     * команда `git add . ; git commit -m "preferences.json | skills.json" ; git push`.
 13. На веб интерфейсе создать файл bug_report.json.
@@ -112,6 +110,6 @@
 }
 ```
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-   * нажать кнопку `Commit changes`.
+    * нажать кнопку `Commit changes`.
 17. Синхронизировать внешний и локальный репозиторий JSON.
-   * команда `git pull`.
+    * команда `git pull`.
