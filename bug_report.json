@@ -1,11 +1,13 @@
 {
- "Heading":"An error in the word Правила ЫРГИ.",
- "Steps to reproduce":{"1":"Login to the server using Login: Test, Password: Test",
-                       "2":"Click button Соглашение",
-                       "3":"Find button 'Правила ЫРГИ'",}
- "Expected result":"The text will be correct 'Правила ИГРЫ'",
- "Actual result":"The text with an error 'Правила ЫРГИ'",
- "Reproduced on":"Win 10",
- "Severity":"Minor",
- "Priority":"Low"
+ "Heading": "An error in the word Правила ЫРГИ.",
+	"Steps to reproduce": {
+		"1": "Login to the server using Login: Test, Password: Test",
+		"2": "Click button Соглашение",
+		"3": "Find button 'Правила ЫРГИ'"
+	},
+	"Expected result": "The text will be correct 'Правила ИГРЫ'",
+	"Actual result": "The text with an error 'Правила ЫРГИ'",
+	"Reproduced on": "Win 10",
+	"Severity": "Minor",
+	"Priority": "Low"
 }
