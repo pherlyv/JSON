@@ -100,15 +100,17 @@
 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 ```json
 {
- "Heading":"An error in the word Правила ЫРГИ.",
- "Steps to reproduce":{"1":"Login to the server using Login: Test, Password: Test",
-                       "2":"Click button Соглашение",
-                       "3":"Find button 'Правила ЫРГИ'",}
- "Expected result":"The text will be correct 'Правила ИГРЫ'",
- "Actual result":"The text with an error 'Правила ЫРГИ'",
- "Reproduced on":"Win 10",
- "Severity":"Minor",
- "Priority":"Low"
+ "Heading": "An error in the word Правила ЫРГИ.",
+	"Steps to reproduce": {
+		"1": "Login to the server using Login: Test, Password: Test",
+		"2": "Click button Соглашение",
+		"3": "Find button 'Правила ЫРГИ'"
+	},
+	"Expected result": "The text will be correct 'Правила ИГРЫ'",
+	"Actual result": "The text with an error 'Правила ЫРГИ'",
+	"Reproduced on": "Win 10",
+	"Severity": "Minor",
+	"Priority": "Low"
 }
 ```
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
