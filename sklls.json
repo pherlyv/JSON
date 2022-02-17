@@ -1,5 +1,5 @@
 {
-"Course program":[
+	"Course program": [
 		"1. Basic theory",
 		"2. Client-server architecture",
 		"3. HTTP methods of request to the server",
@@ -27,5 +27,5 @@
 		"25. Load testing in Jmeter",
 		"26. Scrum development methodology",
 		"27. Python. (Learning the basics. Creating a client server application)"
-			  ]
+	]
 }
